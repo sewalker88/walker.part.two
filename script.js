@@ -15,13 +15,13 @@ else if(vacationType==="Adventurous"){
     destination = "Whitewater Rafting the Grand Canyon";
 }
 
-if (groupSize >1 && groupSize<2){
+if (groupSize >0 && groupSize<3){
     travelSuggestion = " First Class";
 }
-else if (groupSize>3 && groupSize <5){
+else if (groupSize>4 && groupSize <6){
 travelSuggestion = "Helicopter";
 }
-else if (groupSize>6 && groupSize >6){
+else if (groupSize>7){
     travelSuggestion = "Charter Flight";
 }
 let result = `Since you're a group of ${groupSize} going on a ${vacationType} vacation. You should take a ${travelSuggestion} to ${destination}`; 
